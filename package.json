@@ -1,0 +1,25 @@
+{
+  "name": "github-leads-vbredy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeCourse/github-leads-vbredy.git"
+  },
+  "author": "Valentin Brédy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeCourse/github-leads-vbredy/issues"
+  },
+  "homepage": "https://github.com/NodeCourse/github-leads-vbredy#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.8.1",
+    "ava": "^0.25.0",
+    "commander": "^2.15.1",
+    "csv-writer": "^1.0.0"
+  }
+}
